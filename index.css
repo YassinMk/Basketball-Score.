@@ -1,0 +1,269 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("BaketBall Team background blue grid-01.jpg");
+    background-size: cover;
+}
+.container
+{
+    position: relative;
+    width: 575px;
+    height: 385px;
+    background-color: #1B244A;
+    margin: 120px auto;
+    border-radius: 10px;
+    border-color: white;
+    border-width: 50px;
+
+
+
+
+}
+
+h1{
+position: absolute;
+width: 149px;
+height: 36px;
+left: 85px;
+top: 48px;
+
+font-family: 'Verdana';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 36px;
+/* identical to box height, or 90% */
+
+text-align: center;
+
+color: #EEEEEE;
+
+
+}
+.h1-1{
+position: absolute;
+width: 149px;
+height: 36px;
+left: 340px;
+top: 48px;
+
+font-family: 'Verdana';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 36px;
+/* identical to box height, or 90% */
+text-align: center;
+color: #EEEEEE;
+}
+.scorehome{
+position: absolute;
+width: 155px;
+height: 120px;
+left: 80px;
+top: 130px;
+background-color: black;
+}
+#score1
+{
+position: absolute;
+width: 117px;
+height: 120px;
+margin: 0 auto;
+margin-left: 35px;
+
+font-family: 'DS-Digital', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 100px;
+line-height: 127px;
+/* or 141% */
+
+text-align: center;
+
+color: red;
+}
+.scoreguest{
+position: absolute;
+width: 155px;
+height: 120px;
+left: 340px;
+top: 130px;
+background-color: black;
+}
+#score2{
+    position: absolute;
+width: 117px;
+height: 120px;
+margin: 0 auto;
+margin-left: 35px;
+
+font-family: 'DS-Digital', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 100px;
+line-height: 127px;
+/* or 141% */
+
+text-align: center;
+
+color: red;
+
+}
+.ajouter-score1
+{
+    position: absolute;
+    width: 155px;
+    height: 45px;
+    left: 82px;
+    top: 280px;
+    display: block;
+}
+#btn1{
+box-sizing: border-box;
+position: absolute;
+background:#1B244A;
+width: 45px;
+height: 45px;
+border: 2px solid #9AABD8;
+border-radius: 5px;
+cursor: pointer;
+font-family: 'Verdana';
+font-size: 20px;
+font-family: 'DS-Digital', sans-serif;
+color: #9AABD8;
+}
+#btn1:hover{
+    background:#9AABD8;
+    color:#1B244A;
+}
+#btn2{
+    box-sizing: border-box;
+    position: absolute;
+    background:#1B244A;
+    width: 45px;
+    height: 45px;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    margin-left: 55px;
+    cursor: pointer;
+    font-family: 'Verdana';
+    font-size: 20px;
+    font-family: 'DS-Digital', sans-serif;
+    color: #9AABD8;
+
+}
+#btn2:hover{
+    background:#9AABD8;
+    color:#1B244A;
+}
+#btn3{
+    box-sizing: border-box;
+    position: absolute;
+    background:#1B244A;
+    width: 45px;
+    height: 45px;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    margin-left: 110px;
+    cursor: pointer;
+    font-family: 'Verdana';
+    font-size: 20px;
+    font-family: 'DS-Digital', sans-serif;
+    color: #9AABD8;
+}
+#btn3:hover{
+    background:#9AABD8;
+    color:#1B244A;
+}
+.ajouter-score2
+{
+    position: absolute;
+    width: 155px;
+    height: 45px;
+    left: 337px;
+    top: 280px;
+}
+#btn4{
+    box-sizing: border-box;
+    position: absolute;
+    background:#1B244A;
+    width: 45px;
+    height: 45px;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Verdana';
+    font-size: 20px;
+    font-family: 'DS-Digital', sans-serif;
+    color: #9AABD8;
+    }
+#btn4:hover{
+    background:#9AABD8;
+    color:#1B244A;
+}
+#btn5{
+    box-sizing: border-box;
+    position: absolute;
+    background:#1B244A;
+    width: 45px;
+    height: 45px;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    margin-left: 55px;
+    cursor: pointer;
+    font-family: 'Verdana';
+    font-size: 20px;
+    font-family: 'DS-Digital', sans-serif;
+    color: #9AABD8;
+
+}
+#btn5:hover{
+    background:#9AABD8;
+}
+#btn6{
+    box-sizing: border-box;
+    position: absolute;
+    background:#1B244A;
+    width: 45px;
+    height: 45px;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    margin-left: 110px;
+    cursor: pointer;
+    font-family: 'Verdana';
+    font-size: 20px;
+    font-family: 'DS-Digital', sans-serif;
+    color: #9AABD8;
+}
+#btn6:hover{
+    background:#9AABD8;
+    color:#1B244A;
+}
+.newgame{
+    box-sizing: border-box;
+    position: absolute;
+    width: 800px;
+    height:200px;
+    left: 215px;
+    top: 20px;
+}
+.btn7
+{
+    width: 150px;
+    height: 40px;
+    background: #1B244A;
+    border: 2px solid #9AABD8;
+    border-radius: 6.57637px;
+    transform: rotate(0.32deg);
+    font-family: 'Verdana';
+    font-size: 30px;
+    font-family: 'DS-Digital', sans-serif;
+    color: #9AABD8;
+    cursor: pointer;
+}
+.btn7:hover{
+    background:black;
+    color:red;
+    border: 2px solid red;
+}
